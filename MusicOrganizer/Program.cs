@@ -40,8 +40,11 @@ namespace MusicOrganizer
                     Console.WriteLine("Titulo: {0}", title);
 
                     Console.WriteLine();
-                }
+                   
+                    Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), artist));
 
+                }
+               
 
 
 
