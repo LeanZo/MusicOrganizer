@@ -43,6 +43,8 @@ namespace MusicOrganizer
                    
                     Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), artist));
 
+                    System.IO.File.Move(patharquivo, Path.Combine(Path.Combine(Directory.GetCurrentDirectory(), artist), arquivo.Name));
+
                 }
                
 
