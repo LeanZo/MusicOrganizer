@@ -12,3 +12,4 @@ C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\Id3.Win
 C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\Id3.pdb
 C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\Id3.Files.pdb
 C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\Id3.WinForms.pdb
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\taglib-sharp.dll

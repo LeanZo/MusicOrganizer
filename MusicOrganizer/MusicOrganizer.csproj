@@ -33,13 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Id3">
+    <Reference Include="Id3, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Downloads\ID3-0.3-bin\Id3.dll</HintPath>
     </Reference>
-    <Reference Include="Id3.Files">
+    <Reference Include="Id3.Files, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Downloads\ID3-0.3-bin\Id3.Files.dll</HintPath>
     </Reference>
-    <Reference Include="Id3.WinForms">
+    <Reference Include="Id3.WinForms, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Downloads\ID3-0.3-bin\Id3.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -50,6 +53,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="taglib-sharp, Version=2.0.3.7, Culture=neutral, PublicKeyToken=db62eba44689b5b0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\taglib-sharp-2.0.3.7-windows\taglib-sharp-2.0.3.7-windows\Libraries\taglib-sharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
