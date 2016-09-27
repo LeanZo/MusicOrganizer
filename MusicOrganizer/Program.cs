@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Text.RegularExpressions;
+using Id3;
 
 namespace MusicOrganizer
 {
@@ -11,25 +13,47 @@ namespace MusicOrganizer
     {
         static void Main(string[] args)
         {
-            int sexo = 1;
-            int sexo2 = 2;
 
-            if (sexo >= sexo2)
+
+
+            DirectoryInfo dir = new DirectoryInfo(Directory.GetCurrentDirectory());
+            Console.WriteLine();
+            Regex rgx = new Regex(".mp3$");
+            string patharquivo = "undefined";
+
+
+            foreach (var arquivo in dir.GetFiles())
             {
-                Console.Write("SOU GAY!!!!");
+
+               // patharquivo = Path.Combine(Directory.GetCurrentDirectory(), arquivo.Name);
+
+                if (rgx.IsMatch(arquivo.Name))
+                {
+                    Console.WriteLine(arquivo);
+                    
+                        using (var mp3 = new Mp3File(arquivo.Name))
+                        {
+                            Id3Tag tag = mp3.GetTag(Id3TagFamily.FileStartTag);
+                        
+                            Console.WriteLine("Bitch Hate: {0}", tag.BeatsPerMinute.Value);
+                            if (!String.IsNullOrEmpty(tag.Title.Value))
+                            Console.WriteLine("Title: {0}", tag.Title.Value);
+                            if (!String.IsNullOrEmpty(tag.Artists.Value))
+                            Console.WriteLine("Artist: {0}", tag.Artists.Value);
+                            if (!String.IsNullOrEmpty(tag.Album.Value))
+                            Console.WriteLine("Album: {0}", tag.Album.Value);
+                    }
+                    }
 
 
-            }
-            else
-            {
-                Console.Write("NÃO SOU GAY!!!");
 
 
-            }
-        //td bugadasso
+                }
 
 
 
+
+
+            }    
         }
     }
-}

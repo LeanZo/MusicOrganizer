@@ -1,3 +1,14 @@
 c:\users\leanzo\documents\visual studio 2015\Projects\MusicOrganizer\MusicOrganizer\bin\Debug\MusicOrganizer.exe.config
 C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\MusicOrganizer.exe.config
 C:\Users\Cliente\Documents\MakerIdea\MusicOrganizer\MusicOrganizer\bin\Debug\MusicOrganizer.exe.config
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\MusicOrganizer.exe
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\MusicOrganizer.pdb
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\obj\Debug\MusicOrganizer.csprojResolveAssemblyReference.cache
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\obj\Debug\MusicOrganizer.exe
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\obj\Debug\MusicOrganizer.pdb
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\Id3.dll
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\Id3.Files.dll
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\Id3.WinForms.dll
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\Id3.pdb
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\Id3.Files.pdb
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\Id3.WinForms.pdb
