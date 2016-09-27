@@ -12,9 +12,7 @@ namespace MusicOrganizer
         static void Main(string[] args)
         {
             
-            var actualpath = Path.GetDirectoryName();
-            DirectoryInfo dir = new DirectoryInfo(actualpath);
-
+        //td bugadasso
 
 
 
