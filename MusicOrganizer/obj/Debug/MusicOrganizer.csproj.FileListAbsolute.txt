@@ -1,1 +1,2 @@
 c:\users\leanzo\documents\visual studio 2015\Projects\MusicOrganizer\MusicOrganizer\bin\Debug\MusicOrganizer.exe.config
+C:\Users\LeanZo\Documents\GitHub\MusicOrganizer\MusicOrganizer\bin\Debug\MusicOrganizer.exe.config
