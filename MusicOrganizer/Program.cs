@@ -40,10 +40,27 @@ namespace MusicOrganizer
                     Console.WriteLine("Titulo: {0}", title);
 
                     Console.WriteLine();
-                   
-                    Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), artist));
 
-                    System.IO.File.Move(patharquivo, Path.Combine(Path.Combine(Directory.GetCurrentDirectory(), artist), arquivo.Name));
+                    Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), artist));
+                    string artistpath = Path.Combine(Directory.GetCurrentDirectory(), artist);
+                    if (!System.IO.File.Exists(Path.Combine(artistpath, arquivo.Name)))
+                    {
+                        System.IO.File.Move(patharquivo, Path.Combine(Path.Combine(Directory.GetCurrentDirectory(), artist), arquivo.Name));
+                    }else
+                    {
+
+                        string arquivonome2 = arquivo.Name;
+                        arquivonome2 = arquivonome2.Replace(".mp3", "+.mp3");
+                        Console.WriteLine("Já existe um arquivo com este nome na pasta '{0}'",artist);
+                        Console.WriteLine("Dejesa renomear o arquivo '{0}' para '{1}'? (S/N)", arquivo.Name, arquivonome2);
+                        Console.Write(">");
+                        string resp = Console.ReadLine().ToUpper();
+                        Console.WriteLine();
+                        if (resp == "S")
+                        {
+                            System.IO.File.Move(patharquivo, Path.Combine(Path.Combine(Directory.GetCurrentDirectory(), artist), arquivonome2));
+                        }
+                    }
 
                 }
                
